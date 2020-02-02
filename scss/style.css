@@ -1,0 +1,27 @@
+body {
+  color: red;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+section div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+section div h1 {
+  font-size: 34px;
+}
+
+section div #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */

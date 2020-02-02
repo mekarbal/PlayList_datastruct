@@ -1,0 +1,86 @@
+body {
+  color: #57d2de;
+  background-color: black;
+  font-family: sans-serif;
+  background-image: url("https://www.datocms-assets.com/7389/1537379200-intro-background.jpg?w=2560&lossless=0&q=85");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden; }
+  body h1, body h2 {
+    margin-left: -46px; }
+    body h1:hover, body h2:hover {
+      color: #074cf7;
+      cursor: pointer; }
+  body div h1 {
+    margin-top: 12px; }
+  body .draw-border {
+    box-shadow: inset 0 0 0 4px #58afd1;
+    color: #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    position: relative; }
+    body .draw-border::before, body .draw-border::after {
+      border: 0 solid transparent;
+      box-sizing: border-box;
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: 0;
+      right: 0; }
+    body .draw-border::before {
+      border-bottom-width: 4px;
+      border-left-width: 4px; }
+    body .draw-border::after {
+      border-top-width: 4px;
+      border-right-width: 4px; }
+    body .draw-border:hover {
+      color: #074cf7; }
+      body .draw-border:hover::before, body .draw-border:hover::after {
+        border-color: #074cf7;
+        transition: border-color 0s, width 0.25s, height 0.25s;
+        width: 100%;
+        height: 100%; }
+      body .draw-border:hover::before {
+        transition-delay: 0s, 0s, 0.25s; }
+      body .draw-border:hover::after {
+        transition-delay: 0s, 0.25s, 0s; }
+  body .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    margin-left: 12px; }
+  body section {
+    align-items: center; }
+    body section div {
+      justify-content: center;
+      text-align: center; }
+      body section div h1 {
+        font-size: 34px; }
+      body section div #container input {
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        background-color: #39c8d5;
+        border: 1px solid 0;
+        font-size: 20px;
+        margin-bottom: 12px; }
+      body section div #container button {
+        background-color: #58afd1;
+        border-radius: 5px;
+        width: 120px;
+        height: 28px;
+        margin-top: 19px; }
+        body section div #container button:hover {
+          background-color: #074cf7; }
+
+/*# sourceMappingURL=style.css.map */

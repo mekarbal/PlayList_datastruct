@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<script src="galscript.js" ></script>
+</head>
+<!-- <body onload="test()" > -->
+<body >
+	
+	<section>
+		<div>
+			
+				<h1 id="titre">Gallery</h1>
+				<div id="container">
+					<!-- Input -->
+					<div id="container-1">
+						<input type="text" name="" class="node-at-head" id="push-input" placeholder="*.png ....."><br>
+						<input type="text" id="push-input-creator" placeholder="Creator">
+						<input type="text" id="push-input-title" placeholder="title"><br>
+					</div>
+					<div id="container-2">
+						<button onclick="Push()" class="btn-l">Ajouter</button>
+        				<button onclick="Pop()" class="btn-r">Supprimer</button>
+        			</div>
+        			
+					<div id="container-3">
+						<button id="top-button" onclick="Peak()" >&#8679;</button>
+						<div>
+							<br><span id="creator"></span><br>
+							<span id="title"></span><br>
+						</div>
+						<h3><b></b><span id="result"></span></h3>
+					
+        				<button id="bottom-button" onclick="Low()"  >&#8681;</button>
+					</div>
+				</div>
+		</div>
+	</section>
+</body>
+</html>
+
